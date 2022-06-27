@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* logo, search, and botton for both pages */
+
+input.search-bar {
+  color: grey;
+  border-radius: 5px;
+  width: 40vw;
+}
+botton {
+  width: 80px;
+  border-color: 1a5fd0;
+  background-color: 4285f3;
+}
