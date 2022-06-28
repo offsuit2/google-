@@ -6,7 +6,7 @@
   display: block;
   margin: auto;
 }
-img {
+.main img {
   width: 150px;
 }
 .main input {
@@ -16,21 +16,39 @@ img {
 input {
   width: 400px;
   border-radius: 20px;
-  height: 30px;
+  height: 40px;
   border: 2px solid #c4c4c4;
   color: #5b5b5b;
 }
-.main button {
-  margin-top: 15px;
+button {
   width: 80px;
   border-color: #1a5fd0;
   background-color: #4285f3;
   padding: 3px 10px;
-  color: #c373fe;
+  color: #ffffff;
   border-radius: 3px;
+}
+.main button {
   margin: 20px auto;
   display: block;
 }
 button:hover {
   background-color: #5998ff;
+}
+/* rusults page */
+/* navbar */
+.navbar {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr 1fr 140px;
+  height: 10%;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-bottom: grey 3px solid;
+}
+.navbar img {
+  height: 50px;
+}
+.result button {
+  margin-left: 100px;
 }
