@@ -94,3 +94,22 @@ small {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+li a {
+  color: #1a0dab;
+}
+a:focus {
+  color: #660099;
+}
+h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.res {
+  margin-top: 20px;
+}
+.search-results {
+  margin-top: 20px;
+}
+div > .res {
+  margin-top: 40px;
+}
