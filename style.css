@@ -1,4 +1,8 @@
 /* logo, search, and botton for both pages */
+body {
+  font-family: Helvetica, sans-serif;
+}
+
 .main {
   margin-top: 100px;
 }
@@ -21,12 +25,13 @@ input {
   color: #5b5b5b;
 }
 button {
+  height: 40px;
   width: 80px;
-  border-color: #1a5fd0;
+  border: 1px solid #1a5fd0;
   background-color: #4285f3;
   padding: 3px 10px;
   color: #ffffff;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .main button {
   margin: 20px auto;
@@ -40,15 +45,52 @@ button:hover {
 .navbar {
   width: 100%;
   display: grid;
-  grid-template-columns: 150px 1fr 1fr 140px;
+  grid-template-columns: 150px 700px 140px;
+  grid-column-gap: 30px;
   height: 10%;
   margin-bottom: 20px;
   padding: 5px;
-  border-bottom: grey 3px solid;
+  border-bottom: lightgrey 2px solid;
 }
 .navbar img {
   height: 50px;
 }
-.result button {
-  margin-left: 100px;
+button.result {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+form .navbar {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+h2 a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  display: inline;
+  margin-right: 5px;
+}
+ul {
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 200px 500px auto;
+}
+.res p {
+  font-size: 14px;
+  color: #5b5b5b;
+}
+h2 {
+  font-size: 24px;
+}
+h2 a {
+  color: #1a0dab;
+}
+small {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
